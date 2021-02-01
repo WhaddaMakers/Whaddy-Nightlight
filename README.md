@@ -21,8 +21,8 @@ The nightlight is supported by a bracket (also  3D printed), which is designed f
 ### Ingredients:
 * Arduino Nano or equivalent (e.g. [Whadda Atmega328 Nano Development Board (WPB102)](https://whadda.com/product/atmega328-development-board-wpb102/))
 * Light sensor (e.g. [BH1750 dgital light intensity sensor module (VMA341)](https://whadda.com/product/bh1750-digital-light-intensity-sensor-module-vma341/))
-* RBG SMD LED modules (e.g. [ARDUINO® COMPATIBLE 3 COLOUR RGB SMD LED MODULE (2 Pcs)(VMA318)](ARDUINO® COMPATIBLE 3 COLOUR RGB SMD LED MODULE (2 Pcs)))
-* PLA naturel (e.g. [1.75 Mm (1/16″) PLA FILAMENT – NATURAL – 750 G] (https://whadda.com/product/1-75-mm-1-16-pla-filament-natural-750-g-pla175n07/))
+* RBG SMD LED modules (e.g. [ARDUINO® COMPATIBLE 3 COLOUR RGB SMD LED MODULE (2 Pcs)(VMA318)](https://whadda.com/product/arduino-compatible-3-colour-rgb-smd-led-module-2-pcs-vma318/)
+* PLA naturel (e.g. [1.75 Mm (1/16″) PLA FILAMENT – NATURAL – 750 G] (https://whadda.com/product/1-75-mm-1-16-pla-filament-natural-750-g-pla175n07/ ))
 * Soft electrical wires
 * Any USB A cable (old one is good enough but it hast to work)
 
