@@ -1,4 +1,4 @@
-# Whaddy_Nightlight
+# Whaddy Nightlight
 
 ![demo](./pictures/demo.png)
 
@@ -19,12 +19,12 @@ The nightlight is supported by a bracket (also  3D printed), which is designed f
 ## MATERIALS
 
 ### Ingredients:
-*  Arduino Uno or equivalent (e.g. [Whadda Atmega328 Uno Development Board (WPB100/VMA100)](https://www.vellemanformakers.com/product/atmega328-uno-development-board-vma100/))
-* 2.8 Inch colour LCD (Touch Screen) (e.g. [Whadda 2.8 Inch Touch Screen for Development Board (WPSH412/VMA412)](https://www.vellemanformakers.com/product/2-8-inch-touch-screen-for-development-board-vma412/))
-* Joystick Module (e.g. [Whadda XY Joystick Module (WPI315/VMA315)](https://www.vellemanformakers.com/product/xy-joystick-module-2-pcs-vma315/))
-* Prototyping shield for Arduino® Uno (e.g. [Whadda Arduino® Compatible Expansion Board For Arduino® Uno R3 (INSERT WHADDA CODE/VMA200)](https://www.vellemanformakers.com/product/arduino-compatible-expansion-board-for-arduino-uno-r3-vma200/))
-
-* [Optional] 5 pin Female Header
+* Arduino Nano or equivalent (e.g. [Whadda Atmega328 Nano Development Board (WPB102)](https://whadda.com/product/atmega328-development-board-wpb102/))
+* Light sensor (e.g. [BH1750 dgital light intensity sensor module (VMA341)](https://whadda.com/product/bh1750-digital-light-intensity-sensor-module-vma341/))
+* RBG SMD LED modules (e.g. [ARDUINO® COMPATIBLE 3 COLOUR RGB SMD LED MODULE (2 Pcs)(VMA318)](ARDUINO® COMPATIBLE 3 COLOUR RGB SMD LED MODULE (2 Pcs)))
+* PLA naturel (e.g. [1.75 Mm (1/16″) PLA FILAMENT – NATURAL – 750 G] (https://whadda.com/product/1-75-mm-1-16-pla-filament-natural-750-g-pla175n07/))
+* Soft electrical wires
+* Any USB A cable (old one is good enough but it hast to work)
 
 ### Tools:
 * PC with [Arduino IDE](https://www.arduino.cc/en/Main/Software) installed
