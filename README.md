@@ -1,4 +1,4 @@
-# Whaddy-Nightlight
+# Whaddy_Nightlight
 
 ![demo](./pictures/demo.png)
 
