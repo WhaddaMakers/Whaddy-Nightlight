@@ -76,7 +76,9 @@ Use the Arduino library manager (```Sketch > Include Library > Manage Libraries.
 
 1) Open the ```Whaddy_Nighlight.ino``` Arduino Sketch
 2) Select the ```Arduino Nano``` board form the boards menu by going to ```Tools > Board > Arduino AVR Boards > Arduino Nano```
+![boardselect](./Select_Board/1.jpg)
 3) Select the ```ATmega328P (Old Bootloader)``` board form the boards menu by going to ```Tools > Processor >  > ATmega328P (Old Bootloader)```
+![Bootloader](./Bootloader/1.jpg)
 4) Check if the Arduino sketch compiles correctly by hitting the ```Verify``` button (checkmark button left of the upload button). If everything is installed correctly no errors should pop-up and the compilation process should finish with the final message ```Done compiling```. If this process fails, please check if you installed all necessary libraries and selected the correct board.
 
 ## Prepping the connections
