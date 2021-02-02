@@ -43,13 +43,13 @@ Also be sure to print it with 100% infill to get the best result.
 
 ## PROGRAMMING  the development board
 
-### Dev board: Arduino Uno (compatible)
+### Dev board: Arduino Nano (compatible)
 
 ### Processor: ATMega328P
 
 ### Code language: Arduino
 
-### Difficulty: Hard
+### Difficulty: Medium
 
 ### Preparations:
 #### Installing Arduino Libraries
@@ -88,11 +88,11 @@ Use the Arduino library manager (```Sketch > Include Library > Manage Libraries.
 
 ## Running the code!
 
-Almost done with the coding part. After we can start installing the electronics in the 3D printed Casing.
+Almost done with the coding part. After this we can start installing the electronics in the 3D printed case.
 
 ### Setting the light value
 
-As mentioned earlier, the RGB LEDs will turn on when it gets dark. The value corresponds to the ambient ligt that the senor is measuring (lux). 
+As mentioned earlier, the RGB LEDs will turn on when it gets dark. The value corresponds to the ambient ligt that the senor is measuring (LUX). 
 So 0 = DARK
 300 = OFFICE LIGHT
 100 000 = SUNLIGHT :) 
@@ -108,7 +108,7 @@ int Dark = 10;
 
 ### Changing the color of the RGB LEDS 
 
-You can change the color of the nightlight to whatever you want, by changing the setColor values(R, G, B) format. We`ve set it in the Whadda purple. 
+You can change the color of the nightlight to whatever you want by changing the setColor value(R, G, B) format. We`ve set it in the Whadda purple. 
 
 ```Cpp
   if (Alux < Dark) {      // When Avarage Lux measurement is lower then....
@@ -116,4 +116,6 @@ You can change the color of the nightlight to whatever you want, by changing the
   }
   ```
 ### Uploading and checking the program
-You're now ready to upload the code! Hit the upload button and wait until the program is compiled and uploaded. The display should change to the current time and the LEDs should light up to show the predicted temperature and sunny/rainy state. If you're encountering any issue check the serial monitor to see if the board was able to connect to your WiFi network. If this is not the case check the WiFi settings and move closer to your WiFi access point if you suspect that the board might be out of range of the WiFi network.
+You're now ready to upload the code! Hit the upload button and wait until the program is compiled and uploaded. The nightlight should turn on when you cover the light sensor with your hand. If you're encountering any issue check the serial monitor to see if the board was able to give correct readings from the B1750 dgital light intensity sensor.
+
+## Soldering and assembling the electronics
