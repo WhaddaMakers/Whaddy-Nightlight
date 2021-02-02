@@ -8,9 +8,9 @@ Make A Cool Nightlight in the shape of Whaddy! This wil fit on any phone charger
 
 ### What can this project do?
 This project uses an Digital light sensor to measure the ambient light. When a certain light value is reached, the 2 SMD RGB leds will turn on and give your room a purple shine!
-The enclosure is designed for 3D printing in the shape of our Mascot!
-The 3D printed parts are available on our Thingiverse page: "3D print parts". These are designed with a Snap fit connection for the electronic modules and to close it. So you dont have to find screws. 
-The nightlight is supported by a bracket (also  3D printed), which is designed for most EU mobile phone chargers.
+The enclosure is designed for 3D printing and is in the shape of our Mascot!
+The parts are also designed with a Snap fit connection for the electronic modules and to close it. So you dont have to find screws. 
+The nightlight is supported by a bracket (also 3D printed), which is designed for most EU mobile phone chargers.
 
 ### You will need to do the following things for the project to work:
 
@@ -39,8 +39,17 @@ The nightlight is supported by a bracket (also  3D printed), which is designed f
 
 ## 3D printing the NightLight:
 
-There are no supports needed, Be sure to 3D print the Whaddy in a transparent filament. Otherwise, you won`t be able to see the LEDs inside. 
+Find all the .stl files for the case and button of this project on our Thingiverse page:
+
+The Nightlight consist out of 3 3D printed parts
+* Nightlight Top
+* Nightlight Bottom
+* Nightlight Bracket
+
+There are no supports needed, Be sure to 3D print Nightlight Top and Bottom in a transparent filament. Otherwise, you won`t be able to see the LEDs inside. 
 Also be sure to print it with 100% infill to get the best result.
+
+![Cura](./pictures/3Dprint.jpg)
 
 ## PROGRAMMING  the development board
 
