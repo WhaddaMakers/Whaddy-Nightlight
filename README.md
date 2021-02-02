@@ -54,8 +54,26 @@ Also be sure to print it with 100% infill to get the best result.
 ### Preparations:
 #### Installing Arduino Libraries
 
-![Arduino Library manager](./pictures/library_manager.png)
+![Arduino Library manager](./pictures/library_manager.jpg)
 
-* [hp_BH1750] (by Starmbi](https://github.com/Starmbi/hp_BH1750)
 
 Use the Arduino library manager (```Sketch > Include Library > Manage Libraries...```) to install the following libraries:
+
+
+* [hp_BH1750(by Starmbi)](https://github.com/Starmbi/hp_BH1750)
+
+#### Checking the Arduino sketch
+
+1) Open the ```Whaddy_Nighlight.ino``` Arduino Sketch
+2) Select the ```Arduino Nano``` board form the boards menu by going to ```Tools > Board > Arduino AVR Boards > Arduino Nano```
+3) Select the ```ATmega328P (Old Bootloader)``` board form the boards menu by going to ```Tools > Processor >  > ATmega328P (Old Bootloader)```
+4) Check if the Arduino sketch compiles correctly by hitting the ```Verify``` button (checkmark button left of the upload button). If everything is installed correctly no errors should pop-up and the compilation process should finish with the final message ```Done compiling```. If this process fails, please check if you installed all necessary libraries and selected the correct board.
+
+## Prepping the connections
+### Connection Table color sensor
+| BH1750 DIGITAL LIGHT INTENSITY SENSOR | Arduino Nano |
+|:-----------:|:---------------------:|
+| V | 5V |
+| G | GND |
+| SDA | A4 |
+| SCL | A5 |
