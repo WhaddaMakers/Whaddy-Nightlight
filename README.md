@@ -143,6 +143,15 @@ DESOLDER
 #### Step 3: Solder 4 wires to the pins of the BH1750 digital light intensity sensor. Finish of the connections by putting heatshrinks around them.
 
 ![LightSens](./pictures/6.jpg)
+
+#### Finish of the connections by putting heatshrinks around them.
+
 ![LightSensHeat](./pictures/7.jpg)
 
-#### Step 4: Place the BH1750 digital light intensity sensor in the provided place of bottom case from the Nightlight
+#### Step 4: Place the BH1750 digital light intensity sensor in the provided place of bottom case from the Nightlight.
+
+![LightSensCase](./pictures/8.jpg)
+
+#### Step 5: Measure the aprox length of the cables from the BH1750 digital light intensity sensor to the Arduino Nano, and cut it off.
+
+![LightSensCables](./pictures/9.jpg)
