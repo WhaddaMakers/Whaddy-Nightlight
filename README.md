@@ -119,8 +119,12 @@ You can change the color of the nightlight to whatever you want by changing the 
 You're now ready to upload the code! Hit the upload button and wait until the program is compiled and uploaded. The nightlight should turn on when you cover the light sensor with your hand. If you're encountering any issue check the serial monitor to see if the board was able to give correct readings from the B1750 dgital light intensity sensor.
 
 ## Soldering and assembling the electronics
-### Overview of the Ingredients & Tools
+#### Overview of the Ingredients
 
 ![INGREDIENTS](./pictures/1.jpg)
+
+#### Overview of the Tools
 ![TOOLS](./pictures/2.jpg)
+
+#### Step 1
 
