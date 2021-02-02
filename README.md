@@ -138,8 +138,9 @@ DESOLDER
 
 #### Step 2: Place the Arduino Nano in the provided place of bottom case from the Nightlight
 
-![Desolder](./pictures/5.jpg)
+![ArduinoNano](./pictures/5.jpg)
 
-#### Step 3: Place the BH1750 digital light intensity sensor in the provided place of bottom case from the Nightlight
+#### Step 3: Solder 4 wires to the pins of the BH1750 digital light intensity sensor. Finish of the connections by putting heatshrinks around them.
 
-![Desolder](./pictures/6.jpg)
+
+#### Step 4: Place the BH1750 digital light intensity sensor in the provided place of bottom case from the Nightlight
