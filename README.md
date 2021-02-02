@@ -70,10 +70,19 @@ Use the Arduino library manager (```Sketch > Include Library > Manage Libraries.
 4) Check if the Arduino sketch compiles correctly by hitting the ```Verify``` button (checkmark button left of the upload button). If everything is installed correctly no errors should pop-up and the compilation process should finish with the final message ```Done compiling```. If this process fails, please check if you installed all necessary libraries and selected the correct board.
 
 ## Prepping the connections
-### Connection Table color sensor
-| BH1750 DIGITAL LIGHT INTENSITY SENSOR | Arduino Nano |
+### Connection Table light sensorr
+| BH1750 digital light intensity sensor | Arduino Nano |
 |:-----------:|:---------------------:|
-| V | 5V |
 | G | GND |
+| V | 5V |
 | SDA | A4 |
 | SCL | A5 |
+
+### Connection Table SMD RGB leds 
+|3 COLOUR RGB SMD LED MODULE | Arduino Nano |
+|:-----------:|:---------------------:|
+| - | GND |
+| G | A2 |
+| R | A1 |
+| B | A0 |
+
