@@ -39,12 +39,12 @@ The nightlight is supported by a bracket (also 3D printed), which is designed fo
 
 ## 3D printing the NightLight:
 
-Find all the .stl files for the case and button of this project on our Thingiverse page:
-
 The Nightlight consist out of 3 3D printed parts
 * Nightlight Top
 * Nightlight Bottom
 * Nightlight Bracket
+
+Find all the .stl files for the case of this project on our Thingiverse page:
 
 There are no supports needed, Be sure to 3D print Nightlight Top and Bottom in a transparent filament. Otherwise, you won`t be able to see the LEDs inside. 
 Also be sure to print it with 100% infill to get the best result.
