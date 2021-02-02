@@ -140,11 +140,11 @@ DESOLDER
 
 ![ArduinoNano](./pictures/5.jpg)
 
-#### Step 3: Solder 4 wires to the pins of the BH1750 digital light intensity sensor. Finish of the connections by putting heatshrinks around them.
+#### Step 3: Solder 4 wires to the pins of the BH1750 digital light intensity sensor.
 
 ![LightSens](./pictures/6.jpg)
 
-#### Finish of the connections by putting heatshrinks around them.
+#### Finish off the connections by putting heatshrinks around them.
 
 ![LightSensHeat](./pictures/7.jpg)
 
@@ -157,3 +157,10 @@ DESOLDER
 ![LightSensCables](./pictures/9.jpg)
 
 #### Step 6: Remove the arduino and light sensor from the housing. Solder the wires according to the connection diagram
+
+![LightSensSolder](./pictures/10.jpg)
+
+#### Step 7: Solder wires to the pins of the SMD RGB LEDs modules. Don`t forget to finsh the connections off with heatshrinks!
+
+![LightSensSolder](./pictures/11.jpg)
+
