@@ -49,7 +49,7 @@ The Nightlight consist out of 3 3D printed parts
 There are no supports needed, Be sure to 3D print Nightlight Top and Bottom in a transparent filament. Otherwise, you won`t be able to see the LEDs inside. 
 Also be sure to print it with 100% infill to get the best result.
 
-![Cura](./pictures/3Dprint.jpg)
+![Cura](./pictures/3Dprint.JPG)
 
 ## PROGRAMMING  the development board
 
