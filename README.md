@@ -70,7 +70,7 @@ Use the Arduino library manager (```Sketch > Include Library > Manage Libraries.
 4) Check if the Arduino sketch compiles correctly by hitting the ```Verify``` button (checkmark button left of the upload button). If everything is installed correctly no errors should pop-up and the compilation process should finish with the final message ```Done compiling```. If this process fails, please check if you installed all necessary libraries and selected the correct board.
 
 ## Prepping the connections
-### Connection Table light sensorr
+### Connection Table light sensor
 | BH1750 digital light intensity sensor | Arduino Nano |
 |:-----------:|:---------------------:|
 | G | GND |
@@ -85,4 +85,12 @@ Use the Arduino library manager (```Sketch > Include Library > Manage Libraries.
 | G | A2 |
 | R | A1 |
 | B | A0 |
+
+## Running the code!
+
+### setting the light value
+
+As mentioned earlier,the RGB LEDs will turn on when it gets dark. The value corresponds to the ambient ligt that the senor is measuring (lux). So 0 = DARK, 300 = OFFICE LIGHT, 100 000 = SUNLIGHT :). We`ve set the value that it turns on at twilight (10).
+Changing the value van be done here:
+
 
