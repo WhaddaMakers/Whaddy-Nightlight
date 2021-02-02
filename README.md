@@ -145,7 +145,7 @@ DESOLDER
 
 ![Desolder](./pictures/4.jpg)
 
-#### Step 2: Place the Arduino Nano in the provided place of bottom case from the Nightlight
+#### Step 2: Place the Arduino Nano in the provided place of bottom case from the Nightlight, like in the picture below.
 
 ![ArduinoNano](./pictures/5.jpg)
 
@@ -161,7 +161,7 @@ DESOLDER
 
 ![LightSensCase](./pictures/8.jpg)
 
-#### Step 5: Measure the aprox length of the cables from the light sensor to the Arduino Nano, and cut them off. (See connection diagram)
+#### Step 5: Measure the aprox length of the cables from the light sensor to the Arduino Nano pins (See connection diagram), and cut them off. 
 
 ![LightSensCables](./pictures/9.jpg)
 
