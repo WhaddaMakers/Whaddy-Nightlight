@@ -25,6 +25,7 @@ The nightlight is supported by a bracket (also  3D printed), which is designed f
 * PLA naturel (e.g. [1.75 Mm (1/16″) PLA FILAMENT – NATURAL – 750 G](https://whadda.com/product/1-75-mm-1-16-pla-filament-natural-750-g-pla175n07/))
 * Soft electrical wires
 * Any USB A cable (old one is good enough but it hast to work)
+* EU phone charger
 
 ### Tools:
 * PC with [Arduino IDE](https://www.arduino.cc/en/Main/Software) installed
