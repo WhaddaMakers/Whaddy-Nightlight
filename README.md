@@ -127,9 +127,12 @@ You're now ready to upload the code! Hit the upload button and wait until the pr
 #### Overview of the Tools
 ![TOOLS](./pictures/2.jpg)
 
-#### Step 1
-Cut off or Desloder the ICSP pins from the Arduino Nano. We do this to save some space in the 3D printed case.
+#### Step 1 Cut off or Desloder the ICSP pins from the Arduino Nano. We do this to save some space in the 3D printed case.
+CUT OFF
 
 ![CutOff](./pictures/3.jpg)
+
+DESOLDER
+
 ![Desolder](./pictures/4.jpg)
 
