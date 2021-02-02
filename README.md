@@ -152,6 +152,8 @@ DESOLDER
 
 ![LightSensCase](./pictures/8.jpg)
 
-#### Step 5: Measure the aprox length of the cables from the BH1750 digital light intensity sensor to the Arduino Nano, and cut it off.
+#### Step 5: Measure the aprox length of the cables from the light sensor to the Arduino Nano, and cut them off. (See connection diagram)
 
 ![LightSensCables](./pictures/9.jpg)
+
+#### Step 6: Remove the arduino and light sensor from the housing. Solder the wires according to the connection diagram
