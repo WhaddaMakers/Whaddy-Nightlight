@@ -173,10 +173,15 @@ DESOLDER
 
 ![LedsWires](./pictures/11.jpg)
 
-#### Step 8: The Leds will be mounted in the TOP part of the nightlight. insert them in the provided place and. Then bring the wires from the 2 LED modules together(color by color) and cut them off like in the picture below (not to short, otherwise the assembly will be difficult)
+#### Step 8: The Leds will be mounted in the TOP part of the nightlight. insert them in the provided place and. Then bring the wires from the 2 LED modules together(color by color) and cut them off like in the picture below (not to short, otherwise the assembly will be difficult). Again do not forget the heatshrinks :)
 
 ![LightSensSolder](./pictures/12.jpg)
 
+#### Step 9: Start soldering the 2 SMD RGB led modules to the Arduino Nano. See the connection diagram for correct pins
+
+![LightSensSolder](./pictures/13.jpg)
+
+#### Step 10: Start soldering the 2 SMD RGB led modules to the Arduino Nano. See the connection diagram for correct pins
 
 
 
