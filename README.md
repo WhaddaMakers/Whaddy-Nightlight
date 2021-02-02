@@ -163,13 +163,20 @@ DESOLDER
 
 #### Step 5: Measure the aprox length of the cables from the light sensor to the Arduino Nano pins (See connection diagram), and cut them off. 
 
-![LightSensCables](./pictures/9.jpg)
+![LightSensWires](./pictures/9.jpg)
 
-#### Step 6: Remove the arduino and light sensor from the housing. Solder the wires according to the connection diagram
+#### Step 6: Remove the arduino and light sensor from the housing. Solder the wires according to the connection diagram. Don't forget to put heatshrinks onto the connections!!
 
 ![LightSensSolder](./pictures/10.jpg)
 
-#### Step 7: Solder wires to the pins of the SMD RGB LEDs modules. Don`t forget to finsh the connections off with heatshrinks!
+#### Step 7: Solder wires to the pins of the SMD RGB LEDs modules. Don't forget to finsh the connections off with heatshrinks!
 
-![LightSensSolder](./pictures/11.jpg)
+![LedsWires](./pictures/11.jpg)
+
+#### Step 8: The Leds will be mounted in the TOP part of the nightlight. insert them in the provided place and. Then bring the wires from the 2 LED modules together(color by color) and cut them off like in the picture below (not to short, otherwise the assembly will be difficult)
+
+![LightSensSolder](./pictures/12.jpg)
+
+
+
 
