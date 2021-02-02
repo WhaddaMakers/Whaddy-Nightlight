@@ -88,9 +88,15 @@ Use the Arduino library manager (```Sketch > Include Library > Manage Libraries.
 
 ## Running the code!
 
+Almost done with the coding part. After we can start installing the electronics in the 3D printed Casing.
+
 ### Setting the light value
 
-As mentioned earlier,the RGB LEDs will turn on when it gets dark. The value corresponds to the ambient ligt that the senor is measuring (lux). So 0 = DARK, 300 = OFFICE LIGHT, 100 000 = SUNLIGHT :). We`ve set the value that it turns on at twilight (10).
+As mentioned earlier, the RGB LEDs will turn on when it gets dark. The value corresponds to the ambient ligt that the senor is measuring (lux). 
+So 0 = DARK
+300 = OFFICE LIGHT
+100 000 = SUNLIGHT :) 
+We`ve set the value that it turns on at twilight (10).
 Changing the value van be done here:
 
 ```Cpp
@@ -98,5 +104,16 @@ Changing the value van be done here:
 // The lower the value,the darker 
 int Dark = 10;
 /////////////////////////////////////////
-``
+```
 
+### Changing the color of the RGB LEDS 
+
+You can change the color of the nightlight to whatever you want, by changing the setColor values(R, G, B) format. We`ve set it in the Whadda purple. 
+
+```Cpp
+  if (Alux < Dark) {      // When Avarage Lux measurement is lower then....
+    setColor(210, 0, 210); // Set color to Purple (RGB)
+  }
+  ```
+### Uploading and checking the program
+You're now ready to upload the code! Hit the upload button and wait until the program is compiled and uploaded. The display should change to the current time and the LEDs should light up to show the predicted temperature and sunny/rainy state. If you're encountering any issue check the serial monitor to see if the board was able to connect to your WiFi network. If this is not the case check the WiFi settings and move closer to your WiFi access point if you suspect that the board might be out of range of the WiFi network.
