@@ -53,3 +53,9 @@ Also be sure to print it with 100% infill to get the best result.
 
 ### Preparations:
 #### Installing Arduino Libraries
+
+![Arduino Library manager](./pictures/library_manager.png)
+
+* [hp_BH1750] (by Starmbi](https://github.com/Starmbi/hp_BH1750)
+
+Use the Arduino library manager (```Sketch > Include Library > Manage Libraries...```) to install the following libraries:
