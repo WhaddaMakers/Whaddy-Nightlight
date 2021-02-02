@@ -88,9 +88,15 @@ Use the Arduino library manager (```Sketch > Include Library > Manage Libraries.
 
 ## Running the code!
 
-### setting the light value
+### Setting the light value
 
 As mentioned earlier,the RGB LEDs will turn on when it gets dark. The value corresponds to the ambient ligt that the senor is measuring (lux). So 0 = DARK, 300 = OFFICE LIGHT, 100 000 = SUNLIGHT :). We`ve set the value that it turns on at twilight (10).
 Changing the value van be done here:
 
+```Cpp
+// Value to determe at wich value the LEDs should switch on
+// The lower the value,the darker 
+int Dark = 10;
+/////////////////////////////////////////
+``
 
