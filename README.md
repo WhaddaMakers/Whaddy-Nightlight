@@ -127,7 +127,7 @@ You're now ready to upload the code! Hit the upload button and wait until the pr
 #### Overview of the Tools
 ![TOOLS](./pictures/2.jpg)
 
-#### Step 1 Cut off or Desloder the ICSP pins from the Arduino Nano. We do this to save some space in the 3D printed case.
+#### Step 1: Cut off or desloder the ICSP pins from the Arduino Nano. We do this to save some space in the 3D printed case.
 CUT OFF
 
 ![CutOff](./pictures/3.jpg)
@@ -136,3 +136,6 @@ DESOLDER
 
 ![Desolder](./pictures/4.jpg)
 
+#### Step 2: Place the Arduino Nano in the provided place of bottom case from the Nightlight
+
+#### Step 3: Place the BH1750 digital light intensity sensor in the provided place of bottom case from the Nightlight
