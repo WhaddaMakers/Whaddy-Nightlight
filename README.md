@@ -1,6 +1,6 @@
 # Whaddy Nightlight
 
-![demo](./pictures/demo.png)
+![demo](./pictures/demo.jpg)
 
 Make A Cool Nightlight in the shape of Whaddy! This wil fit on any phone charger in the EU
 
