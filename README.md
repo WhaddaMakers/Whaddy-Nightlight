@@ -173,14 +173,13 @@ DESOLDER
 
 ![LedsWires](./pictures/11.jpg)
 
-#### Step 8: The Leds will be mounted in the TOP part of the nightlight. insert them in the provided place and. Then bring the wires from the 2 LED modules together(color by color) and cut them off like in the picture below (not to short, otherwise the assembly will be difficult). Again do not forget the heatshrinks :)
+#### Step 8: The Leds will be mounted in the TOP part of the nightlight. insert them in the provided place and. Then bring the wires from the 2 LED modules together (color by color) and cut them off like in the picture below (not to short, otherwise the assembly will be difficult). Again do not forget the heatshrinks :)
 
 ![LEDsWireLenght](./pictures/12.jpg)
 
 #### Step 9: Start soldering the 2 SMD RGB led modules to the Arduino Nano according the connection diagram. DON'T SOLDER DE GND YET, WE WILL DO THIS LATER ON
 
 ![LEDsSolder](./pictures/13.jpg)
-
 
 #### You should have something like this now:
 
@@ -198,7 +197,7 @@ DESOLDER
 
 ![USBstripends](./pictures/17.jpg)
 
-#### Step 12: Feed the + and - wires trough the hole of the bottom part form the nightlight.
+#### Step 12: Feed the + and - wires trough the hole of the bottom part form the Nightlight.
 
 ![USBfeed](./pictures/18.jpg)
 
@@ -206,29 +205,29 @@ DESOLDER
 
 ![USBsolder+](./pictures/19.jpg)
 
-#### Step 14: Solder the - from the USB cable  And the - wires from RGB SMD LED mosules to the GND pin of the arduino Nano
+#### Step 14: Solder the - from the USB cable and the - wires from RGB SMD LED modules to the GND pin of the arduino Nano
 
 ![USBsolder+](./pictures/20.jpg)
 
-#### Step 15: Slide the 2 LED modules in the provided place of TOP part from the nightlight.
+#### Step 15: Slide the 2 LED modules in the provided place of TOP part from the Nightlight.
 
 ![LEdslide](./pictures/21.jpg)
 
-#### Step 16: Now close the Nightlight TOP and Bottom half. The deign uses snap fit, so no need for screws!
+#### Step 16: Now close the Nightlight TOP and BOTTOM half. The design uses snap fit, so no need for screws!
 
 ![CloseAssembly](./pictures/22.jpg)
 
-#### Step 17: The next step is to mount the bracket on the charger, like in the picturre below.
+#### Step 17: The next step is to mount the bracket on the charger, like in the picture below.
 
 ![Bracketmount](./pictures/23.jpg)
 
-#### Step 18: Click the bracket in the slot of the BOTTOM part of the Nightlight. BE CAREFULL, DON'T BREAK THE BRACKET(it is a fairly tight fitting)
+#### Step 18: Click the bracket in the slot of the BOTTOM part of the Nightlight. BE CAREFULL, DON'T BREAK THE BRACKET (it is a fairly tight fitting)
 
 ![Bracketmount2](./pictures/24.jpg)
 
-#### Step 19: Last step, WOOHOOO. Plug the USB A in the Charger. 
+#### Step 19: WOOHOOO, Last step. Plug the USB A in the Charger. 
 
-![Bracketmount2](./pictures/25.jpg)
+![USBplug](./pictures/25.jpg)
 
 
 
