@@ -17,22 +17,22 @@ The nightlight is supported by a bracket which you also need to 3D print, and is
 ## MATERIALS
 
 ### Ingredients:
-* Arduino Nano or equivalent like the [Whadda Atmega328 Nano Development Board (WPB102)](https://whadda.com/product/atmega328-development-board-wpb102/
-* [BH1750 dgital light intensity sensor module (VMA341)](https://whadda.com/product/bh1750-digital-light-intensity-sensor-module-vma341/)
-* [ARDUINO® COMPATIBLE 3 COLOUR RGB SMD LED MODULE (2 Pcs)(VMA318)](https://whadda.com/product/arduino-compatible-3-colour-rgb-smd-led-module-2-pcs-vma318/)
-* [1.75 Mm (1/16″) PLA FILAMENT – NATURAL – 750 G](https://whadda.com/product/1-75-mm-1-16-pla-filament-natural-750-g-pla175n07/)
+* Arduino Nano or equivalent like the [Whadda Atmega328 Nano Development Board (WPB102)](https://whadda.com/product/atmega328-development-board-wpb102/)
+* [BH1750 dgital light intensity sensor module](https://whadda.com/product/bh1750-digital-light-intensity-sensor-module-vma341/)
+* [Arduino® compatible 3 colour RGB SMD LED module (2 pcs)](https://whadda.com/product/arduino-compatible-3-colour-rgb-smd-led-module-2-pcs-vma318/)
+* [1.75 mm (1/16″) PLA filament - natural – 750 G](https://whadda.com/product/1-75-mm-1-16-pla-filament-natural-750-g-pla175n07/)
 * soft electrical wires
 * any USB A cable (an old one is good enough but it has to work)
 * standard EU phone charger/adaptor
 
 ### Tools:
 * PC with [Arduino IDE](https://www.arduino.cc/en/Main/Software) installed
-* Soldering iron
-* Solder
-* Stripping pliers
-* Cutting pliers
-* Shrink tubes
-* Heat gun of hair dryer
+* soldering iron
+* solder
+* stripping pliers
+* cutting pliers
+* shrink tubes
+* heat gun of hair dryer
 * 3D printer
 
 ## 3D printing the NightLight:
@@ -42,10 +42,10 @@ The Nightlight consist out of 3 3D printed parts
 * Nightlight Bottom
 * Nightlight Bracket
 
-Find all the .stl files for the case of this project on our Thingiverse page:
+Find all the .stl files for the case of this project on our [Whadda Thingiverse page]
 
-There are no supports needed, Be sure to 3D print Nightlight Top and Bottom in a transparent filament. Otherwise, you won`t be able to see the LEDs inside. 
-Also be sure to print it with 100% infill to get the best result.
+There are no supports needed. Be sure to 3D print the Nightlight Top and Bottom in a transparent filament. Otherwise, you won`t be able to see the LEDs inside. 
+Also, be sure to print it with 100% infill to get the best result.
 
 ![Cura](./pictures/3Dprint.JPG)
 
