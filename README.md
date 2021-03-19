@@ -2,19 +2,19 @@
 
 ![demo](./pictures/Demo.jpg)
 
-Make A Cool Nightlight in the shape of Whaddy! This wil fit on any phone charger in the EU
+Make A Cool Nightlight in the shape of Whadda's very own mascot, Whaddy! This wil fit on any phone charger in the EU.
 
 ## Project description - How Does it work?
 
 ### What can this project do?
-This project uses an Digital light sensor to measure the ambient light. When a certain light value is reached, the 2 SMD RGB leds will turn on and give your room a purple shine!
-The enclosure is designed for 3D printing and is in the shape of our Mascot!
-The parts are also designed with a Snap fit connection for the electronic modules and to close it. So you dont have to find screws. 
-The nightlight is supported by a bracket (also 3D printed), which is designed for most EU mobile phone chargers.
+This project uses a digital light sensor to measure the ambient light. When a certain light value is reached, the 2 SMD RGB LEDs will turn on and give your room or hallway a purple glow!
+The enclosure is designed for 3D printing and has the shape of our mascot!
+The parts are also designed to have a snap fit connection for the electronic modules and to close it. This way, you don't need any screws. 
+The nightlight is supported by a bracket which you also need to 3D print, and is designed for most EU mobile phone chargers or small USB adaptors.
 
 ### You will need to do the following things for the project to work:
 
-### Level of difficulty: Intermediate
+### Level of difficulty: intermediate
 
 ## MATERIALS
 
