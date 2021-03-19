@@ -38,9 +38,9 @@ The nightlight is supported by a bracket which you also need to 3D print, and is
 ## 3D printing the NightLight:
 
 The Nightlight consist out of 3 3D printed parts
-* Nightlight Top
-* Nightlight Bottom
-* Nightlight Bracket
+* Nightlight Top  (Whaddy_Nightlight_TOP.stl)
+* Nightlight Bottom (Whaddy_Nightlight_BOTTOM.stl)
+* Nightlight Bracket (ChargeHolder.stl)
 
 Find all the .stl files for the case of this project in the 3D design file.
 
