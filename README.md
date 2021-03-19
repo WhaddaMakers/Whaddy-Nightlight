@@ -42,7 +42,7 @@ The Nightlight consist out of 3 3D printed parts
 * Nightlight Bottom
 * Nightlight Bracket
 
-Find all the .stl files for the case of this project on our [Whadda Thingiverse page]
+Find all the .stl files for the case of this project in the 3D design file.
 
 There are no supports needed. Be sure to 3D print the Nightlight Top and Bottom in a transparent filament. Otherwise, you won`t be able to see the LEDs inside. 
 Also, be sure to print it with 100% infill to get the best result.
