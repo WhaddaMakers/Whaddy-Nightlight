@@ -2,7 +2,7 @@
 
 ![demo](./pictures/Demo.jpg)
 
-Make A Cool Nightlight in the shape of Whadda's very own mascot, Whaddy! This wil fit on any phone charger in the EU.
+Make a cool nightlight in the shape of Whadda's very own mascot, Whaddy! This design will fit onto any phone charger in the EU.
 
 ## Project description - How Does it work?
 
@@ -12,20 +12,18 @@ The enclosure is designed for 3D printing and has the shape of our mascot!
 The parts are also designed to have a snap fit connection for the electronic modules and to close it. This way, you don't need any screws. 
 The nightlight is supported by a bracket which you also need to 3D print, and is designed for most EU mobile phone chargers or small USB adaptors.
 
-### You will need to do the following things for the project to work:
-
 ### Level of difficulty: intermediate
 
 ## MATERIALS
 
 ### Ingredients:
-* Arduino Nano or equivalent (e.g. [Whadda Atmega328 Nano Development Board (WPB102)](https://whadda.com/product/atmega328-development-board-wpb102/))
-* Light sensor (e.g. [BH1750 dgital light intensity sensor module (VMA341)](https://whadda.com/product/bh1750-digital-light-intensity-sensor-module-vma341/))
-* RBG SMD LED modules (e.g. [ARDUINO® COMPATIBLE 3 COLOUR RGB SMD LED MODULE (2 Pcs)(VMA318)](https://whadda.com/product/arduino-compatible-3-colour-rgb-smd-led-module-2-pcs-vma318/))
-* PLA naturel (e.g. [1.75 Mm (1/16″) PLA FILAMENT – NATURAL – 750 G](https://whadda.com/product/1-75-mm-1-16-pla-filament-natural-750-g-pla175n07/))
-* Soft electrical wires
-* Any USB A cable (old one is good enough but it hast to work)
-* EU phone charger
+* Arduino Nano or equivalent like the [Whadda Atmega328 Nano Development Board (WPB102)](https://whadda.com/product/atmega328-development-board-wpb102/
+* [BH1750 dgital light intensity sensor module (VMA341)](https://whadda.com/product/bh1750-digital-light-intensity-sensor-module-vma341/)
+* [ARDUINO® COMPATIBLE 3 COLOUR RGB SMD LED MODULE (2 Pcs)(VMA318)](https://whadda.com/product/arduino-compatible-3-colour-rgb-smd-led-module-2-pcs-vma318/)
+* [1.75 Mm (1/16″) PLA FILAMENT – NATURAL – 750 G](https://whadda.com/product/1-75-mm-1-16-pla-filament-natural-750-g-pla175n07/)
+* soft electrical wires
+* any USB A cable (an old one is good enough but it has to work)
+* standard EU phone charger/adaptor
 
 ### Tools:
 * PC with [Arduino IDE](https://www.arduino.cc/en/Main/Software) installed
