@@ -49,7 +49,7 @@ Also, be sure to print it with 100% infill to get the best result.
 
 ![Cura](./pictures/3Dprint.JPG)
 
-## PROGRAMMING  the development board
+## Progrqmming the development board
 
 ### Dev board: Arduino Nano (compatible)
 
@@ -73,14 +73,14 @@ Use the Arduino library manager (```Sketch > Include Library > Manage Libraries.
 #### Checking the Arduino sketch
 
 1) Open the ```Whaddy_Nighlight.ino``` Arduino Sketch
-2) Select the ```Arduino Nano``` board form the boards menu by going to ```Tools > Board > Arduino AVR Boards > Arduino Nano```
+2) Select the ```Arduino Nano``` board form the board's menu by going to ```Tools > Board > Arduino AVR Boards > Arduino Nano```
 ![boardselect](./pictures/Select_Board.jpg)
-3) Select the ```ATmega328P (Old Bootloader)``` board form the boards menu by going to ```Tools > Processor >  > ATmega328P (Old Bootloader)```
+3) Select the ```ATmega328P (Old Bootloader)``` board form the board's menu by going to ```Tools > Processor >  > ATmega328P (Old Bootloader)```
 ![Bootloader](./pictures/Bootloader.jpg)
-4) Check if the Arduino sketch compiles correctly by hitting the ```Verify``` button (checkmark button left of the upload button). If everything is installed correctly no errors should pop-up and the compilation process should finish with the final message ```Done compiling```. If this process fails, please check if you installed all necessary libraries and selected the correct board.
+4) Check if the Arduino sketch compiles correctly by hitting the ```Verify``` button (checkmark button left of the upload button). If everything is installed correctly, no errors should pop-up and the compilation process should finish with the final message ```Done compiling```. If this process fails, please check if you installed all necessary libraries and selected the correct board.
 
 ## Prepping the connections
-### Connection Table light sensor
+### Connection table light sensor
 | BH1750 digital light intensity sensor | Arduino Nano |
 |:-----------:|:---------------------:|
 | G | GND |
@@ -88,7 +88,7 @@ Use the Arduino library manager (```Sketch > Include Library > Manage Libraries.
 | SDA | A4 |
 | SCL | A5 |
 
-### Connection Table SMD RGB leds 
+### Connection table SMD RGB LEDs 
 |3 COLOUR RGB SMD LED MODULE | Arduino Nano |
 |:-----------:|:---------------------:|
 | - | GND |
@@ -106,19 +106,19 @@ As mentioned earlier, the RGB LEDs will turn on when it gets dark. The value cor
 So 0 = DARK
 300 = OFFICE LIGHT
 100 000 = SUNLIGHT :) 
-We`ve set the value that it turns on at twilight (10).
-Changing the value van be done here:
+We`ve set the value so that it turns on at twilight (10).
+Changing the value can be done here:
 
 ```Cpp
 // Value to determe at wich value the LEDs should switch on
-// The lower the value,the darker 
+// The lower the value, the darker 
 int Dark = 10;
 /////////////////////////////////////////
 ```
 
-### Changing the color of the RGB LEDS 
+### Changing the color of the RGB LEDs 
 
-You can change the color of the nightlight to whatever you want by changing the setColor value(R, G, B) format. We`ve set it in the Whadda purple. 
+You can change the color of the nightlight to whatever you want by changing the setColor value(R, G, B) format. We`ve set it to Whadda purple. 
 
 ```Cpp
   if (Alux < Dark) {      // When Avarage Lux measurement is lower then....
@@ -126,17 +126,17 @@ You can change the color of the nightlight to whatever you want by changing the 
   }
   ```
 ### Uploading and checking the program
-You're now ready to upload the code! Hit the upload button and wait until the program is compiled and uploaded. The nightlight should turn on when you cover the light sensor with your hand. If you're encountering any issue check the serial monitor to see if the board was able to give correct readings from the B1750 dgital light intensity sensor.
+You are now ready to upload the code! Hit the upload button and wait until the program is compiled and uploaded. The nightlight should turn on when you cover the light sensor with your hand. If you're encountering any issue, check the serial monitor to see if the board was able to give correct readings from the B1750 dgital light intensity sensor.
 
 ## Soldering and assembling the electronics
-#### Overview of the Ingredients
+#### Overview of the ingredients
 
 ![INGREDIENTS](./pictures/1.jpg)
 
 #### Overview of the Tools
 ![TOOLS](./pictures/2.jpg)
 
-#### Step 1: Cut off or desloder the ICSP pins from the Arduino Nano. We do this to save some space in the 3D printed case.
+#### Step 1: Cut off or desolder the ICSP pins from the Arduino Nano. We do this to save some space in the 3D printed case.
 CUT OFF
 
 ![CutOff](./pictures/3.jpg)
@@ -145,7 +145,7 @@ DESOLDER
 
 ![Desolder](./pictures/4.jpg)
 
-#### Step 2: Place the Arduino Nano in the provided place of bottom case from the Nightlight, like in the picture below.
+#### Step 2: Place the Arduino Nano into the provided place at the bottom of the case from the Nightlight, as shown in the picture below.
 
 ![ArduinoNano](./pictures/5.jpg)
 
@@ -157,7 +157,7 @@ DESOLDER
 
 ![LightSensHeat](./pictures/7.jpg)
 
-#### Step 4: Place the BH1750 digital light intensity sensor in the provided place of bottom case from the Nightlight.
+#### Step 4: Place the BH1750 digital light intensity sensor in the provided place at the bottom of the case from the Nightlight.
 
 ![LightSensCase](./pictures/8.jpg)
 
@@ -165,7 +165,7 @@ DESOLDER
 
 ![LightSensWires](./pictures/9.jpg)
 
-#### Step 6: Remove the arduino and light sensor from the housing. Solder the wires according the connection diagram. Don't forget to put heatshrinks onto the connections!!  DON'T SOLDER DE 5V YET, WE WILL DO THIS LATER ON
+#### Step 6: Remove the Arduino and light sensor from the case. Solder the wires according the connection diagram. Don't forget to put heatshrinks onto the connections!!  DON'T SOLDER THE 5V YET, WE WILL DO THIS LATER ON.
 
 ![LightSensSolder](./pictures/10.jpg)
 
@@ -173,19 +173,19 @@ DESOLDER
 
 ![LedsWires](./pictures/11.jpg)
 
-#### Step 8: The Leds will be mounted in the TOP part of the nightlight. insert them in the provided place and. Then bring the wires from the 2 LED modules together (color by color) and cut them off like in the picture below (not to short, otherwise the assembly will be difficult). Again do not forget the heatshrinks :)
+#### Step 8: The Leds will be mounted in the TOP part of the nightlight. insert them in the provided place and. Then bring the wires from the 2 LED modules together (color by color) and cut them off as shown in the picture below (not too short, otherwise the assembly will be difficult). Again, do not forget the heatshrinks :).
 
 ![LEDsWireLenght](./pictures/12.jpg)
 
-#### Step 9: Start soldering the 2 SMD RGB led modules to the Arduino Nano according the connection diagram. DON'T SOLDER DE GND YET, WE WILL DO THIS LATER ON
+#### Step 9: Start soldering the 2 SMD RGB led modules to the Arduino Nano according the connection diagram. DON'T SOLDER THE GND YET, WE WILL DO THIS LATER ON.
 
 ![LEDsSolder](./pictures/13.jpg)
 
-#### You should have something like this now:
+#### The assembly should look something like this by now:
 
 ![Assembly](./pictures/14.jpg)
 
-#### Step 10: Cut off the USB A cable (approx. 25cm) and strip it (approx. 7.5cm)
+#### Step 10: Cut off the USB A cable (approx. 25cm) and strip it (approx. 7.5cm).
 
 ![USBcut](./pictures/15.jpg)
 
@@ -193,7 +193,7 @@ DESOLDER
 
 ![USBstrip](./pictures/16.jpg)
 
-#### Then strip and solder the ends of these wires
+#### Then strip and solder the ends of these wires.
 
 ![USBstripends](./pictures/17.jpg)
 
@@ -201,31 +201,31 @@ DESOLDER
 
 ![USBfeed](./pictures/18.jpg)
 
-#### Step 13: Solder the + wire from the USB cable and the 5V wire from the light sensor the the 5V pin of the arduino Nano
+#### Step 13: Solder the + wire from the USB cable and the 5V wire from the light sensor the the 5V pin of the Arduino Nano.
 
 ![USBsolder+](./pictures/19.jpg)
 
-#### Step 14: Solder the - from the USB cable and the - wires from RGB SMD LED modules to the GND pin of the arduino Nano
+#### Step 14: Solder the - from the USB cable and the - wires from RGB SMD LED modules to the GND pin of the Arduino Nano.
 
 ![USBsolder+](./pictures/20.jpg)
 
-#### Step 15: Slide the 2 LED modules in the provided place of TOP part from the Nightlight.
+#### Step 15: Slide the 2 LED modules into the provided place of TOP part from the Nightlight.
 
 ![LEdslide](./pictures/21.jpg)
 
-#### Step 16: Now close the Nightlight TOP and BOTTOM half. The design uses snap fit, so no need for screws!
+#### Step 16: Now close the Nightlight TOP and BOTTOM half. The design uses a snap fit, so no need for screws!
 
 ![CloseAssembly](./pictures/22.jpg)
 
-#### Step 17: The next step is to mount the bracket on the charger, like in the picture below.
+#### Step 17: The next step is to mount the bracket on the charger, as shown in the picture below.
 
 ![Bracketmount](./pictures/23.jpg)
 
-#### Step 18: Click the bracket in the slot of the BOTTOM part of the Nightlight. BE CAREFULL, DON'T BREAK THE BRACKET (it is a fairly tight fitting)
+#### Step 18: Click the bracket into the slot of the BOTTOM part of the Nightlight. BE CAREFULL, DO NOTT BREAK THE BRACKET (it is a fairly tight fitting).
 
 ![Bracketmount2](./pictures/24.jpg)
 
-#### Step 19: WOOHOOO, Last step. Plug the USB A in the Charger. 
+#### Step 19: WOOHOOO, Last step. Plug the USB A into the Charger. 
 
 ![USBplug](./pictures/25.jpg)
 
