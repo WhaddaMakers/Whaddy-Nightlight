@@ -131,103 +131,103 @@ You are now ready to upload the code! Hit the upload button and wait until the p
 ## Soldering and assembling the electronics
 ## Overview of the ingredients
 
-![INGREDIENTS](./pictures/1.jpg)
+![INGREDIENTS](https://github.com/WhaddaMakers/Whaddy_Nightlight/raw/main/pictures/1.jpg)
 
 ## Overview of the Tools
-![TOOLS](./pictures/2.jpg)
+![TOOLS](https://github.com/WhaddaMakers/Whaddy_Nightlight/raw/main/pictures/2.jpg)
 
 Step 1: Cut off or desolder the ICSP pins from the Arduino Nano. We do this to save some space in the 3D printed case.
 CUT OFF
 
-![CutOff](./pictures/3.jpg)
+![CutOff](https://github.com/WhaddaMakers/Whaddy_Nightlight/raw/main/pictures/3.jpg)
 
 DESOLDER
 
-![Desolder](./pictures/4.jpg)
+![Desolder](https://github.com/WhaddaMakers/Whaddy_Nightlight/raw/main/pictures/4.jpg)
 
 Step 2: Place the Arduino Nano into the provided place at the bottom of the case from the Nightlight, as shown in the picture below.
 
-![ArduinoNano](./pictures/5.jpg)
+![ArduinoNano](https://github.com/WhaddaMakers/Whaddy_Nightlight/raw/main/pictures/5.jpg)
 
 Step 3: Solder 4 wires to the pins of the BH1750 digital light intensity sensor.
 
-![LightSens](./pictures/6.jpg)
+![LightSens](https://github.com/WhaddaMakers/Whaddy_Nightlight/raw/main/pictures/6.jpg)
 
  Finish off the connections by putting heatshrinks around them.
 
-![LightSensHeat](./pictures/7.jpg)
+![LightSensHeat](https://github.com/WhaddaMakers/Whaddy_Nightlight/raw/main/pictures/7.jpg)
 
 Step 4: Place the BH1750 digital light intensity sensor in the provided place at the bottom of the case from the Nightlight.
 
-![LightSensCase](./pictures/8.jpg)
+![LightSensCase](https://github.com/WhaddaMakers/Whaddy_Nightlight/raw/main/pictures/8.jpg)
 
 Step 5: Measure the aprox length of the cables from the light sensor to the Arduino Nano pins (See connection diagram), and cut them off. 
 
-![LightSensWires](./pictures/9.jpg)
+![LightSensWires](https://github.com/WhaddaMakers/Whaddy_Nightlight/raw/main/pictures/9.jpg)
 
 Step 6: Remove the Arduino and light sensor from the case. Solder the wires according the connection diagram. Don't forget to put heatshrinks onto the connections!!  DON'T SOLDER THE 5V YET, WE WILL DO THIS LATER ON.
 
-![LightSensSolder](./pictures/10.jpg)
+![LightSensSolder](https://github.com/WhaddaMakers/Whaddy_Nightlight/raw/main/pictures/10.jpg)
 
 Step 7: Solder wires to the pins of the SMD RGB LEDs modules. Don't forget to finsh the connections off with heatshrinks!
 
-![LedsWires](./pictures/11.jpg)
+![LedsWires](https://github.com/WhaddaMakers/Whaddy_Nightlight/raw/main/pictures/11.jpg)
 
 Step 8: The Leds will be mounted in the TOP part of the nightlight. insert them in the provided place and. Then bring the wires from the 2 LED modules together (color by color) and cut them off as shown in the picture below (not too short, otherwise the assembly will be difficult). Again, do not forget the heatshrinks :).
 
-![LEDsWireLenght](./pictures/12.jpg)
+![LEDsWireLenght](https://github.com/WhaddaMakers/Whaddy_Nightlight/raw/main/pictures/12.jpg)
 
 Step 9: Start soldering the 2 SMD RGB led modules to the Arduino Nano according the connection diagram. DON'T SOLDER THE GND YET, WE WILL DO THIS LATER ON.
 
-![LEDsSolder](./pictures/13.jpg)
+![LEDsSolder](https://github.com/WhaddaMakers/Whaddy_Nightlight/raw/main/pictures/13.jpg)
 
 The assembly should look something like this by now:
 
-![Assembly](./pictures/14.jpg)
+![Assembly](https://github.com/WhaddaMakers/Whaddy_Nightlight/raw/main/pictures/14.jpg)
 
 Step 10: Cut off the USB A cable (approx. 25cm) and strip it (approx. 7.5cm).
 
-![USBcut](./pictures/15.jpg)
+![USBcut](https://github.com/WhaddaMakers/Whaddy_Nightlight/raw/main/pictures/15.jpg)
 
 Step 11: Cut away the excess shielding and wires until you only have the + and - wires.
 
-![USBstrip](./pictures/16.jpg)
+![USBstrip](https://github.com/WhaddaMakers/Whaddy_Nightlight/raw/main/pictures/16.jpg)
 
  Then strip and solder the ends of these wires.
 
-![USBstripends](./pictures/17.jpg)
+![USBstripends](https://github.com/WhaddaMakers/Whaddy_Nightlight/raw/main/pictures/17.jpg)
 
 Step 12: Feed the + and - wires trough the hole of the bottom part form the Nightlight.
 
-![USBfeed](./pictures/18.jpg)
+![USBfeed](https://github.com/WhaddaMakers/Whaddy_Nightlight/raw/main/pictures/18.jpg)
 
 Step 13: Solder the + wire from the USB cable and the 5V wire from the light sensor the the 5V pin of the Arduino Nano.
 
-![USBsolder+](./pictures/19.jpg)
+![USBsolder+](https://github.com/WhaddaMakers/Whaddy_Nightlight/raw/main/pictures/19.jpg)
 
 Step 14: Solder the - from the USB cable and the - wires from RGB SMD LED modules to the GND pin of the Arduino Nano.
 
-![USBsolder+](./pictures/20.jpg)
+![USBsolder+](https://github.com/WhaddaMakers/Whaddy_Nightlight/raw/main/pictures/20.jpg)
 
 Step 15: Slide the 2 LED modules into the provided place of TOP part from the Nightlight.
 
-![LEdslide](./pictures/21.jpg)
+![LEdslide](https://github.com/WhaddaMakers/Whaddy_Nightlight/raw/main/pictures/21.jpg)
 
 Step 16: Now close the Nightlight TOP and BOTTOM half. The design uses a snap fit, so no need for screws!
 
-![CloseAssembly](./pictures/22.jpg)
+![CloseAssembly](https://github.com/WhaddaMakers/Whaddy_Nightlight/raw/main/pictures/22.jpg)
 
 Step 17: The next step is to mount the bracket on the charger, as shown in the picture below.
 
-![Bracketmount](./pictures/23.jpg)
+![Bracketmount](https://github.com/WhaddaMakers/Whaddy_Nightlight/raw/main/pictures/23.jpg)
 
 Step 18: Click the bracket into the slot of the BOTTOM part of the Nightlight. BE CAREFULL, DO NOTT BREAK THE BRACKET (it is a fairly tight fitting).
 
-![Bracketmount2](./pictures/24.jpg)
+![Bracketmount2](https://github.com/WhaddaMakers/Whaddy_Nightlight/raw/main/pictures/24.jpg)
 
 Step 19: WOOHOOO, Last step. Plug the USB A into the Charger. 
 
-![USBplug](./pictures/25.jpg)
+![USBplug](https://github.com/WhaddaMakers/Whaddy_Nightlight/raw/main/pictures/25.jpg)
 
 
 
