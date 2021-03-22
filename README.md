@@ -1,6 +1,6 @@
 # Whaddy Nightlight
 
-![demo](./pictures/Whaddy_light.jpg)
+![demo](https://github.com/WhaddaMakers/Whaddy_Nightlight/blob/main/pictures/Whaddy_light.jpg?raw=true)
 
 Make a cool nightlight in the shape of Whadda's very own mascot, Whaddy! This design will fit onto any phone charger in the EU.
 
